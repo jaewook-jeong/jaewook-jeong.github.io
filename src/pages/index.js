@@ -4,17 +4,26 @@ import { graphql, Link } from "gatsby";
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { Category } from "../components/category";
+import { useMemo } from "react";
+import _ from "lodash";
+import { useCategory } from "../hooks/useCategory";
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
+  const [category, selectCategory] = useCategory();
+  const categories = useMemo(
+    () => _.uniq(posts.map(({ node }) => node.frontmatter.category)),
+    []
+  )
 
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
         <Bio />
         <p>
-         git test
+         준비 중입니다. 조금만 기다려주세요.
         </p>
       </Layout>
     )
@@ -23,6 +32,11 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <Bio />
+      <Category
+        categories={categories}
+        category={category}
+        selectCategory={selectCategory}
+      />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
