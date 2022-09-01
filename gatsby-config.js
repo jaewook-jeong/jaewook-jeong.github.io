@@ -66,8 +66,10 @@ module.exports = {
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
               return allMarkdownRemark.nodes.map(node => {
+                console.log(node, 'asd');
                 return Object.assign({}, node.frontmatter, {
                   description: node.excerpt,
+                  category: node.frontmatter.category,
                   date: node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + node.fields.slug,
                   guid: site.siteMetadata.siteUrl + node.fields.slug,
@@ -88,6 +90,7 @@ module.exports = {
                     }
                     frontmatter {
                       title
+                      category
                       date
                     }
                   }

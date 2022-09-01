@@ -14,7 +14,10 @@ const BlogIndex = ({ data, location }) => {
   const posts = data.allMarkdownRemark.nodes
   const [category, selectCategory] = useCategory();
   const categories = useMemo(
-    () => _.uniq(posts.map(({ node }) => node.frontmatter.category)),
+    () => _.uniq(posts.map(({ node }) => {
+      console.log(node);
+      return node?.frontmatter?.category
+    })),
     []
   )
 
