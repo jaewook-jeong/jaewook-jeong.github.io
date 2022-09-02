@@ -14,11 +14,10 @@ const BlogIndex = ({ data, location }) => {
   const posts = data.allMarkdownRemark.nodes
   const [category, selectCategory] = useCategory();
   const categories = useMemo(
-    () => _.uniq(posts.map(({ node }) => {
-      console.log(node);
+    () => _.uniq(posts.map((node) => {
       return node?.frontmatter?.category
     })),
-    []
+    [posts]
   )
 
   if (posts.length === 0) {
@@ -102,6 +101,7 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          category
         }
       }
     }
