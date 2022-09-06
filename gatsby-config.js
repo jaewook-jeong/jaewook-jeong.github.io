@@ -125,5 +125,6 @@ module.exports = {
     },
     `gatsby-plugin-sass`,
     `gatsby-plugin-lodash`,
+    'gatsby-plugin-styled-components',
   ],
 }
