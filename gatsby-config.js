@@ -5,7 +5,10 @@ module.exports = {
       name: `Jaewook-jeong`,
     },
     description: `A blog to find out who he is`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    social: {
+      github: 'jaewook-jeong',
+      velog: '@_woogie',
+    }
   },
   plugins: [
     `gatsby-plugin-image`,

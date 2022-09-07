@@ -19,7 +19,7 @@ const Bio = () => {
             summary
           }
           social {
-            twitter
+            github
           }
         }
       }
@@ -28,8 +28,8 @@ const Bio = () => {
 
   // Set these values by editing "siteMetadata" in gatsby-config.js
   const author = data.site.siteMetadata?.author
-  // const social = data.site.siteMetadata?.social
-
+  const social = data.site.siteMetadata?.social
+  console.log(social);
   return (
     <div className="bio">
       <StaticImage
@@ -42,11 +42,19 @@ const Bio = () => {
         quality={95}
         alt="Profile picture"
       />
-      {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-        </p>
-      )}
+      <p>
+        Written by <strong>{author.name}</strong>
+        <br/>
+        문의사항이 있다면 언제든 연락주세요:)
+      </p>
+      <div className="author-socials">
+        {social.github && (
+          <a href={`https://github.com/${social.github}`}>GitHub</a>
+        )}
+        {social.velog && (
+          <a href={`https://velog.io/${social.velog}`}>Velog</a>
+        )}
+      </div>
     </div>
   )
 }
