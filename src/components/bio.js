@@ -13,6 +13,7 @@ import styled from "styled-components";
 const StyledBio = styled.div`
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
   
   div {
     display: flex;
