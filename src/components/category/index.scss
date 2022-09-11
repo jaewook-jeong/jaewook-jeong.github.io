@@ -10,6 +10,9 @@
   -ms-overflow-style: none; // IE 10+
   z-index: 1;
   padding: 6px 20px;
+  border-radius: 5px;
+  background-color: #f4f7f8;
+  color: #424242;
 
   scroll-behavior: smooth;
 
@@ -23,15 +26,17 @@
     background-color: #fff;
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
     overflow: hidden;
+    font-weight: 600;
 
     &[aria-selected="false"] {
       :hover {
-        background: #f1f1f1;
+        background: #cfdeec;
+        color: #696969;
       }
     }
 
     &[aria-selected="true"] {
-      border: 2px solid #909da1;
+      border: 2px solid #005b99;
       font-weight: bolder;
     }
 
@@ -41,6 +46,7 @@
       font-size: 13px;
       box-sizing: border-box;
       cursor: pointer;
+      font-weight: 600;
     }
   }
 
