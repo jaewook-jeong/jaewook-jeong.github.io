@@ -19,6 +19,13 @@ const BlogIndex = ({ data, location }) => {
     })),
     [posts]
   )
+  const filteredPosts = useMemo(() =>
+    posts
+      .filter(
+        (node) =>
+           category === 'All' ||
+           node?.frontmatter?.category === category
+    ), [category, posts]);
 
   if (posts.length === 0) {
     return (
@@ -40,7 +47,7 @@ const BlogIndex = ({ data, location }) => {
         selectCategory={selectCategory}
       />
       <ol style={{ listStyle: `none` }}>
-        {posts.map(post => {
+        {filteredPosts?.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 
           return (
@@ -91,7 +98,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+        sort: { fields: [frontmatter___date], order: DESC }
+        filter: { frontmatter: { category: { ne: null } } }
+    ) {
       nodes {
         excerpt
         fields {
