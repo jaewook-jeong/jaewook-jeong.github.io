@@ -73,15 +73,15 @@ const Bio = () => {
           <br/>
           문의사항이 있다면 언제든 연락주세요:)
           <br/>
-          <a href="https://www.nextunicorn.kr">@nextunicorn</a>
+          <a href="https://www.nextunicorn.kr" target="_blank">@nextunicorn</a>
         </p>
       </div>
       <div className="author-socials">
         {social.github && (
-          <a href={`https://github.com/${social.github}`}>GitHub</a>
+          <a href={`https://github.com/${social.github}`} target="_blank">GitHub</a>
         )}
         {social.velog && (
-          <a href={`https://velog.io/${social.velog}`}>Velog</a>
+          <a href={`https://velog.io/${social.velog}`} target="_blank">Velog</a>
         )}
       </div>
     </StyledBio>
