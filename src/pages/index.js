@@ -1,25 +1,34 @@
 import * as React from "react"
 import { graphql, Link } from "gatsby";
+import uniq from "lodash/uniq";
+import styled from "styled-components";
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { Category } from "../components/category";
-import { useMemo } from "react";
-import _ from "lodash";
 import { useCategory } from "../hooks/useCategory";
+
+const Tag = styled.span`
+  padding: 3px 7px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  background-color: #c69b69;
+  color: #fefefe;
+  font-weight: 500;
+`;
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
   const [category, selectCategory] = useCategory();
-  const categories = useMemo(
-    () => _.uniq(posts.map((node) => {
+  const categories = React.useMemo(
+    () => uniq(posts.map((node) => {
       return node?.frontmatter?.category
     })),
     [posts]
   )
-  const filteredPosts = useMemo(() =>
+  const filteredPosts = React.useMemo(() =>
     posts
       .filter(
         (node) =>
@@ -58,6 +67,7 @@ const BlogIndex = ({ data, location }) => {
                 itemType="http://schema.org/Article"
               >
                 <header>
+                  <Tag>{post.frontmatter.category}</Tag>
                   <h2>
                     <Link to={post.fields.slug} itemProp="url">
                       <span itemProp="headline">{title}</span>
