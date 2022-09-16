@@ -22,6 +22,7 @@ const StyledBio = styled.div`
   .author-socials {
     gap: 10px;
     color: #1a202c;
+    font-weight: 500;
   }
   
   a {
@@ -71,7 +72,7 @@ const Bio = () => {
         <p>
           Written by <strong>{author.name}</strong>
           <br/>
-          문의사항이 있다면 언제든 연락주세요:)
+          문의사항이 있다면 연락주세요:)
           <br/>
           <a href="https://www.nextunicorn.kr" target="_blank">@nextunicorn</a> frontend
         </p>

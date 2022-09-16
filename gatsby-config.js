@@ -8,7 +8,11 @@ module.exports = {
     social: {
       github: 'jaewook-jeong',
       velog: '@_woogie',
-    }
+    },
+    resume: {
+      title: 'About Chris',
+      description: 'docs: Update RESUME.md for introducing myself',
+    },
   },
   plugins: [
     `gatsby-plugin-image`,
