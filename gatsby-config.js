@@ -121,7 +121,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `static/favicon.ico`,
+        icon: `static/favicon-16x16.png`,
       },
     },
     {
