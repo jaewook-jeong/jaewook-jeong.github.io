@@ -10,7 +10,7 @@ import { Category } from "../components/category";
 import { useCategory } from "../hooks/useCategory";
 
 const Tag = styled.span`
-  padding: 3px 7px;
+  padding: 1px 7px;
   border-radius: 10px;
   margin-bottom: 5px;
   background-color: #c69b69;

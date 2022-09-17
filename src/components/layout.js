@@ -9,15 +9,28 @@ const Layout = ({ location, title, children }) => {
 
   if (isRootPath) {
     header = (
-      <h1 className="main-heading">
-        <Link to="/">{title}</Link>
-      </h1>
+      <div>
+        <div style={{ display: 'flex', flexDirection: 'row-reverse' }}>
+          <Link to="/about">
+            about
+          </Link>
+          {/*테마 토글 필요*/}
+        </div>
+        <h1 className="main-heading">
+          <Link to="/">{title}</Link>
+        </h1>
+      </div>
     )
   } else {
     header = (
-      <Link className="header-link-home" to="/">
-        {title}
-      </Link>
+      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+        <Link className="header-link-home" to="/">
+          {title}
+        </Link>
+        <Link to="/about">
+          about
+        </Link>
+      </div>
     )
   }
 
