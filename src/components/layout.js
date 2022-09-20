@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import GlobalCss from "../styles/GlobalCss";
+import { ThemeSelector } from "./themeSelector";
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -14,11 +15,11 @@ const Layout = ({ location, title, children }) => {
           <Link to="/about">
             about
           </Link>
-          {/*테마 토글 필요*/}
         </div>
         <h1 className="main-heading">
           <Link to="/">{title}</Link>
         </h1>
+        <ThemeSelector />
       </div>
     )
   } else {
