@@ -22,12 +22,13 @@ function setLocalStorageTheme(val) {
 }
 
 const SwitchContainer = styled.div`
+  margin-top: 10px;
   text-align: right;
   
   .icon {
     text-align: center;
     color: #222;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 900;
   }
 `;
@@ -71,14 +72,14 @@ export const ThemeSelector = () => {
           onChange={handleChange}
           checked={checked}
           id="normal-switch"
-          height={24}
+          height={26}
           width={48}
-          checkedIcon={<div className="icon checkedIcon">D</div>}
-          uncheckedIcon={<div className="icon uncheckedIcon">L</div>}
-          offColor={'#d9dfe2'}
-          offHandleColor={'#fff'}
-          onColor={'#999'}
-          onHandleColor={'#282c35'}
+          checkedIcon={<div className="icon checkedIcon">🌒</div>}
+          uncheckedIcon={<div className="icon uncheckedIcon">🌕</div>}
+          offColor={'#ddd'}
+          offHandleColor={'#ddd'}
+          onColor={'#666'}
+          onHandleColor={'#666'}
         />
       </label>
     </SwitchContainer>
