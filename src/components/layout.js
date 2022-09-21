@@ -3,6 +3,9 @@ import { Link } from "gatsby"
 import GlobalCss from "../styles/GlobalCss";
 import { ThemeSelector } from "./themeSelector";
 
+import '../styles/lightTheme.scss';
+import '../styles/darkTheme.scss';
+
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
