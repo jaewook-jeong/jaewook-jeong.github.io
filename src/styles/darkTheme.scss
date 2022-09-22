@@ -1,12 +1,20 @@
 @import "./variables";
 body.dark {
-  background-color: $dark-background-color;
+  background-color: #2e353f;
   text-shadow: $dark-text-shadow;
   color: $dark-light-font-color;
 
   // home
   .home-header {
     color: $dark-light-font-color;
+  }
+  .main-heading {
+    color: #fefefe;
+  }
+  .about {
+    a {
+      color: #dadada;
+    }
   }
 
   .bio {
@@ -21,26 +29,22 @@ body.dark {
     }
   }
 
+  a {
+    color: #dadada;
+  }
+
   .category-container {
-    border-top: 1px solid $dark-category-border-color;
-    border-bottom: 1px solid $dark-category-border-color;
-    border-right: 6px solid $dark-category-border-color;
-    border-left: 6px solid $dark-category-border-color;
-    background-color: $dark-category-background-color;
+    background-color: #8d7947;
     .item {
-      border: 1px solid $dark-category-border-color;
-      background-color: $dark-category-item-color;
-      -webkit-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.1);
-      box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.1);
-      a {
-        color: $dark-category-text-color;
-      }
+      border: 2px solid #6b6b6b;
+      background-color: #656b75;
+      color: #dadada;
       &[aria-selected='true'] {
-        border: 2px solid $dark-category-highlight-border-color;
+        border: 2px solid #ddd;
         font-weight: bolder;
       }
       &[aria-selected='true'] a {
-        color: $dark-category-highlight-text-color;
+        color: #fefefe;
       }
     }
   }

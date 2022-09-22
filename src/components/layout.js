@@ -14,7 +14,7 @@ const Layout = ({ location, title, children }) => {
   if (isRootPath) {
     header = (
       <div>
-        <div style={{ display: 'flex', flexDirection: 'row-reverse' }}>
+        <div style={{ display: 'flex', flexDirection: 'row-reverse' }} className="about">
           <Link to="/about">
             about
           </Link>
