@@ -46,6 +46,12 @@ body.dark {
       &[aria-selected='true'] a {
         color: #fefefe;
       }
+      &[aria-selected="false"] {
+        :hover {
+          background: #b0bcc5;
+          color: #696969;
+        }
+      }
     }
   }
 
