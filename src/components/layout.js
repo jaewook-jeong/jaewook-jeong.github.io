@@ -16,7 +16,7 @@ const Layout = ({ location, title, children }) => {
       <div>
         <div style={{ display: 'flex', flexDirection: 'row-reverse' }} className="about">
           <Link to="/about">
-            about
+            📝 about
           </Link>
         </div>
         <h1 className="main-heading">
