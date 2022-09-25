@@ -30,7 +30,7 @@ date: 2022-9-17 17:21:13
 
 # Experiences
 
-## Nextunicorn
+## [Nextunicorn](https://www.nextunicorn.kr)
 
 |              |                                                                                                   |
 | -----------: |---------------------------------------------------------------------------------------------------|
@@ -39,14 +39,15 @@ date: 2022-9-17 17:21:13
 | **projects** | [메인페이지](https://nextunicorn.kr) / [파인더](https://nextunicorn.kr/finder) / 채팅기능 / nu-angel / nu-pro |
 |    *tech*    | React, Next.js, TypeScript, react-query, react-hook-form, emotion, zustand, redux                 |
 
-#### 메신저 채팅 개발(22.08 ~ 계속)
+#### 메신저 채팅 개발(22.08 ~ 22.09)
 
 - stomp를 이용한 spring서버와 소켓 연결
-- overflow-anchor의 사파리 미지원으로 인한 자체 구현
+- `overflow-anchor`의 사파리 미지원으로 인한 자체 구현
   - resizeObserver의 활용
+- `intersectionObserver`를 사용한 상단 무한 스크롤 구현
 - PC, TABLET, MOBILE(IOS)에 대한 완벽한 대응
 
-#### [NU-prop](https://pro.nextunicorn.kr/) 페이지(22.06 ~ 22.07)
+#### [NU-pro](https://pro.nextunicorn.kr/) 페이지(22.06 ~ 22.07)
 
 - 103개의 정보를 볼 수 있는 리스트(테이블) 구현
 - 화면에 보이는 영역만 렌더링하여 수많은 데이터에도 성능 유지

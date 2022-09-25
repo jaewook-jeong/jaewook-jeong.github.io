@@ -1,8 +1,9 @@
 import React from 'react'
-import { graphql, Link, useStaticQuery } from "gatsby";
+import { graphql, useStaticQuery } from "gatsby";
 
 import { rhythm } from '../utils/typography'
 import Seo from "../components/seo";
+import "../styles/about.scss";
 
 export default () => {
   const data = useStaticQuery(graphql`
