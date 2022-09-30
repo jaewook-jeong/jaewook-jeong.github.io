@@ -20,6 +20,10 @@ body.light {
     }
   }
 
+  .category-wrapper {
+    background-color: $light-background-color;
+  }
+
   .category-container {
     background-color: $light-category-background-color;
     .item {

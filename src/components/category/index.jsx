@@ -1,7 +1,17 @@
 import React, { useCallback, useRef } from 'react'
+import styled from 'styled-components';
 import './index.scss'
 import { Item } from './item'
+
 import { rhythm } from "../../utils/typography";
+
+const Wrapper = styled.div`
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  padding-top: 15px;
+  z-index: 1;
+`;
 
 export const Category = ({ categories, category, selectCategory }) => {
   const containerRef = useRef(null)
@@ -18,25 +28,27 @@ export const Category = ({ categories, category, selectCategory }) => {
   }, [containerRef])
 
   return (
-    <ul
-      ref={containerRef}
-      className="category-container"
-      role="tablist"
-      id="category"
-      style={{
-        margin: `0 -${rhythm(3 / 4)}`,
-      }}
-    >
-      <Item title={'All'} selectedCategory={category} onClick={selectCategory} scrollToCenter={scrollToCenter} />
-      {categories.map((title, idx) => (
-        <Item
-          key={idx}
-          title={title}
-          selectedCategory={category}
-          onClick={selectCategory}
-          scrollToCenter={scrollToCenter}
-        />
-      ))}
-    </ul>
+    <Wrapper className="category-wrapper">
+      <ul
+        ref={containerRef}
+        className="category-container"
+        role="tablist"
+        id="category"
+        style={{
+          margin: `0 -${rhythm(3 / 4)}`,
+        }}
+      >
+        <Item title={'All'} selectedCategory={category} onClick={selectCategory} scrollToCenter={scrollToCenter} />
+        {categories.map((title, idx) => (
+          <Item
+            key={idx}
+            title={title}
+            selectedCategory={category}
+            onClick={selectCategory}
+            scrollToCenter={scrollToCenter}
+          />
+        ))}
+      </ul>
+    </Wrapper>
   )
 }
