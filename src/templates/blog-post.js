@@ -4,13 +4,14 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { Utterances } from "../components/utterances";
 
 const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
   location,
 }) => {
-  const siteTitle = site.siteMetadata?.title || `Title`
-
+  const siteTitle = site.siteMetadata?.title || `Title`;
+  const utterances = site.siteMetadata?.comment?.utterances;
   return (
     <Layout location={location} title={siteTitle}>
       <article
@@ -57,6 +58,7 @@ const BlogPostTemplate = ({
           </li>
         </ul>
       </nav>
+      {!!utterances && <Utterances repo={utterances} />}
     </Layout>
   )
 }
@@ -81,6 +83,9 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        comment {
+          utterances
+        }
       }
     }
     markdownRemark(id: { eq: $id }) {

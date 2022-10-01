@@ -15,6 +15,9 @@ module.exports = {
       title: 'About Chris',
       description: 'docs: Update RESUME.md for introducing myself',
     },
+    comment: {
+      utterances: 'jaewook-jeong/jaewook-jeong.github.io',
+    },
   },
   plugins: [
     `gatsby-plugin-image`,
