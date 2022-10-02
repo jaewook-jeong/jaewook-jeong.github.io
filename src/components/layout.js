@@ -27,12 +27,12 @@ const Layout = ({ location, title, children }) => {
     )
   } else {
     header = (
-      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+      <div className="about" style={{ display: 'flex', justifyContent: 'space-between' }}>
         <Link className="header-link-home" to="/">
           {title}
         </Link>
         <Link to="/about">
-          about
+          📝 About
         </Link>
       </div>
     )
