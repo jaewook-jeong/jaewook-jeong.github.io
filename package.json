@@ -18,6 +18,7 @@
     "gatsby-plugin-styled-components": "^5.22.0",
     "gatsby-plugin-typography": "^4.22.0",
     "gatsby-react-router-scroll": "^5.22.0",
+    "gatsby-remark-autolink-headers": "^5.24.0",
     "gatsby-remark-copy-linked-files": "^5.21.0",
     "gatsby-remark-emoji": "^0.0.3",
     "gatsby-remark-images": "^6.21.0",
