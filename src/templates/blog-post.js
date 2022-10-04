@@ -6,6 +6,8 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { Utterances } from "../components/utterances";
 
+import '../styles/code.scss'
+
 const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
   location,
