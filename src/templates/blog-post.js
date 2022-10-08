@@ -14,6 +14,10 @@ const BlogPostTemplate = ({
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`;
   const utterances = site.siteMetadata?.comment?.utterances;
+  const thumbnail = site.siteMetadata.thumnail;
+  const thumbnailSrc = thumbnail
+    ? `${thumbnail.childImageSharp.fixed.src}`
+    : undefined
   return (
     <Layout location={location} title={siteTitle}>
       <article
@@ -98,6 +102,13 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        thumbnail {
+            childImageSharp {
+                fixed(width: 800) {
+                    src
+                }
+            }
+        }
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
