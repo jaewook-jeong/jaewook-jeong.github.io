@@ -66,7 +66,10 @@ const detailsQuery = graphql`
             siteMetadata {
                 title
                 description
-                author
+                author {
+                    name
+                    summary
+                }
             }
         }
     }

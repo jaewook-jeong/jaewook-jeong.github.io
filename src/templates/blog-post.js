@@ -102,13 +102,13 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
-        thumbnail {
-            childImageSharp {
-                fixed(width: 800) {
-                    src
-                }
-            }
-        }
+#        thumbnail {
+#            childImageSharp {
+#                fixed(width: 800) {
+#                    src
+#                }
+#            }
+#        }
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
