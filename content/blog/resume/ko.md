@@ -47,6 +47,7 @@ date: 2022-9-17 17:21:13
 - `intersectionObserver`를 사용한 상단 무한 스크롤 구현
 - PC, TABLET, MOBILE(IOS)에 대한 완벽한 대응
 - 유저의 화면 visible 상태에 따른 소켓 재연결 처리
+- 메시지가 url일 경우 OG태그 처리 
 
 #### [NU-pro](https://pro.nextunicorn.kr/) 페이지(22.06 ~ 22.07)
 
