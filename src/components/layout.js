@@ -50,7 +50,7 @@ const Layout = ({ location, title, children }) => {
       </header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © Chris(재욱), Built with
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>
       </footer>
