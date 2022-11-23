@@ -4,6 +4,7 @@ date: "2022-10-08T22:12:03.284Z"
 description: "Hello World"
 thumbnail: ""
 draft: true
+category: draft
 ---
 
 
