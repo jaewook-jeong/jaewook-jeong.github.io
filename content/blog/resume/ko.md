@@ -39,6 +39,10 @@ date: 2022-9-17 17:21:13
 | **projects** | [메인페이지](https://nextunicorn.kr) / [파인더](https://nextunicorn.kr/finder) / 채팅기능 / nu-angel / nu-pro |
 |    *tech*    | React, Next.js, TypeScript, react-query, react-hook-form, emotion, zustand, redux                 |
 
+#### nextunicorn-package 오픈소스 관리
+- [util](https://www.npmjs.com/package/@nextunicorn/utils)
+
+
 #### 메신저 채팅 개발(22.08 ~ 22.09)
 
 - stomp를 이용한 spring서버와 소켓 연결
