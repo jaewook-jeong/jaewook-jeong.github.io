@@ -5,7 +5,7 @@ date: 2022-9-17 17:21:13
 
 # 정재욱
 
-<div align="right"><sub><i>Last updated: 2022.09.17</i></sub></div>
+<div align="right"><sub><i>Last updated: 2022.11.26</i></sub></div>
 
 **저는 `______`  사람입니다.**
 
