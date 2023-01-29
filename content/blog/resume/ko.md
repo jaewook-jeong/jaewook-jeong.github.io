@@ -1,11 +1,11 @@
 ---
 title: 'about'
-date: 2022-9-17 17:21:13
+date: 2023-1-29 17:21:13
 ---
 
 # 정재욱
 
-<div align="right"><sub><i>Last updated: 2022.11.26</i></sub></div>
+<div align="right"><sub><i>Last updated: 2023.01.29</i></sub></div>
 
 **저는 `______`  사람입니다.**
 
@@ -32,18 +32,25 @@ date: 2022-9-17 17:21:13
 
 ## [Nextunicorn](https://www.nextunicorn.kr)
 
-|              |                                                                                                   |
-| -----------: |---------------------------------------------------------------------------------------------------|
-|   **period** | 21.02 ~ current                                                                                   |
-| **position** | Frontend Chapter                                                                                  |
-| **projects** | [메인페이지](https://nextunicorn.kr) / [파인더](https://nextunicorn.kr/finder) / 채팅기능 / nu-angel / nu-pro |
-|    *tech*    | React, Next.js, TypeScript, react-query, react-hook-form, emotion, zustand, redux                 |
+|              |                                                                                                                                             |
+| -----------: |---------------------------------------------------------------------------------------------------------------------------------------------|
+|   **period** | 21.02 ~ current                                                                                                                             |
+| **position** | Frontend Chapter                                                                                                                            |
+| **projects** | [메인페이지](https://nextunicorn.kr) / [파인더](https://nextunicorn.kr/finder) / [지원프로그램](https://nextunicorn.kr/support-programs) / 채팅기능  / nu-pro |
+|    *tech*    | React, Next.js, TypeScript, react-query, react-hook-form, emotion, zustand, redux                                                           |
 
 #### nextunicorn-package 오픈소스 관리
 - [util](https://www.npmjs.com/package/@nextunicorn/utils)
 
+#### 지원프로그램 통합(22.11 ~ 23.01)
 
-#### 메신저 채팅 개발(22.08 ~ 22.09)
+- 국가주도 스타트업 지원 프로그램 큐레이션 및 SEO 최적화
+  - 기존의 자사 스타트업 지원 프로그램과 통합
+- 자사 스타트업 지원 프로그램 어드민 개발
+  - 여러 input type에 대응하는 dynamic form 개발
+  - dynamic 평가 form 및 평가 시스템 구현
+
+#### 메신저 채팅 개발(22.08 ~ 22.10)
 
 - stomp를 이용한 spring서버와 소켓 연결
 - `overflow-anchor`의 사파리 미지원으로 인한 자체 구현
