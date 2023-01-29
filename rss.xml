@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A blog to find out who he is]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 26 Nov 2022 13:23:15 GMT</lastBuildDate><item><title><![CDATA[지금 나의 위치]]></title><link>null/temp/now-where-i-am/</link><guid isPermaLink="false">null/temp/now-where-i-am/</guid><pubDate>Sat, 08 Oct 2022 22:12:03 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[about]]></title><description><![CDATA[정재욱 저는   사람입니다. 대화하는게 좋은 문서화를 잘하는 이상과 현실을 구분하는 저는  하는 개발자입니다. 결과물을 제시간에 만들어내는 지속 가능한 개발에 집중하는 개발 문화에 관심이 많은   GitHub https://github.com…]]></description><link>null/resume/ko/</link><guid isPermaLink="false">null/resume/ko/</guid><pubDate>Sat, 17 Sep 2022 17:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;정재욱&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A0%95%EC%9E%AC%EC%9A%B1&quot; aria-label=&quot;정재욱 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;정재욱&lt;/h1&gt;
-&lt;div align=&quot;right&quot;&gt;&lt;sub&gt;&lt;i&gt;Last updated: 2022.11.26&lt;/i&gt;&lt;/sub&gt;&lt;/div&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A blog to find out who he is]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 29 Jan 2023 11:48:06 GMT</lastBuildDate><item><title><![CDATA[about]]></title><description><![CDATA[정재욱 저는   사람입니다. 대화하는게 좋은 문서화를 잘하는 이상과 현실을 구분하는 저는  하는 개발자입니다. 결과물을 제시간에 만들어내는 지속 가능한 개발에 집중하는 개발 문화에 관심이 많은   GitHub https://github.com…]]></description><link>null/resume/ko/</link><guid isPermaLink="false">null/resume/ko/</guid><pubDate>Sun, 29 Jan 2023 17:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;정재욱&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A0%95%EC%9E%AC%EC%9A%B1&quot; aria-label=&quot;정재욱 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;정재욱&lt;/h1&gt;
+&lt;div align=&quot;right&quot;&gt;&lt;sub&gt;&lt;i&gt;Last updated: 2023.01.29&lt;/i&gt;&lt;/sub&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;저는 &lt;code class=&quot;language-text&quot;&gt;______&lt;/code&gt;  사람입니다.&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;대화하는게 좋은&lt;/li&gt;
@@ -55,7 +55,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&quot;right&quot;&gt;&lt;strong&gt;projects&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&quot;https://nextunicorn.kr&quot;&gt;메인페이지&lt;/a&gt; / &lt;a href=&quot;https://nextunicorn.kr/finder&quot;&gt;파인더&lt;/a&gt; / 채팅기능 / nu-angel / nu-pro&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://nextunicorn.kr&quot;&gt;메인페이지&lt;/a&gt; / &lt;a href=&quot;https://nextunicorn.kr/finder&quot;&gt;파인더&lt;/a&gt; / &lt;a href=&quot;https://nextunicorn.kr/support-programs&quot;&gt;지원프로그램&lt;/a&gt; / 채팅기능  / nu-pro&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&quot;right&quot;&gt;&lt;em&gt;tech&lt;/em&gt;&lt;/td&gt;
@@ -67,7 +67,21 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.npmjs.com/package/@nextunicorn/utils&quot;&gt;util&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;메신저-채팅-개발2208--2209&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A9%94%EC%8B%A0%EC%A0%80-%EC%B1%84%ED%8C%85-%EA%B0%9C%EB%B0%9C2208--2209&quot; aria-label=&quot;메신저 채팅 개발2208  2209 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;메신저 채팅 개발(22.08 ~ 22.09)&lt;/h4&gt;
+&lt;h4 id=&quot;지원프로그램-통합2211--2301&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A7%80%EC%9B%90%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%ED%86%B5%ED%95%A92211--2301&quot; aria-label=&quot;지원프로그램 통합2211  2301 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;지원프로그램 통합(22.11 ~ 23.01)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;국가주도 스타트업 지원 프로그램 큐레이션 및 SEO 최적화
+&lt;ul&gt;
+&lt;li&gt;기존의 자사 스타트업 지원 프로그램과 통합&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;자사 스타트업 지원 프로그램 어드민 개발
+&lt;ul&gt;
+&lt;li&gt;여러 input type에 대응하는 dynamic form 개발&lt;/li&gt;
+&lt;li&gt;dynamic 평가 form 및 평가 시스템 구현&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;메신저-채팅-개발2208--2210&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A9%94%EC%8B%A0%EC%A0%80-%EC%B1%84%ED%8C%85-%EA%B0%9C%EB%B0%9C2208--2210&quot; aria-label=&quot;메신저 채팅 개발2208  2210 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;메신저 채팅 개발(22.08 ~ 22.10)&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;stomp를 이용한 spring서버와 소켓 연결&lt;/li&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;overflow-anchor&lt;/code&gt;의 사파리 미지원으로 인한 자체 구현
@@ -147,4 +161,4 @@
 &lt;p&gt;&lt;em&gt;감사합니다.&lt;/em&gt;&lt;/p&gt;
 &lt;br/&gt;
 &lt;p&gt;&lt;sub&gt;&lt;sup&gt;Front-End Engineer, &lt;a href=&quot;https://github.com/jaewook-jeong&quot;&gt;@정재욱&lt;/a&gt;&lt;/sup&gt;&lt;/sub&gt;&lt;/p&gt;
-&lt;/div&gt;</content:encoded></item></channel></rss>
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[지금 나의 위치]]></title><link>null/temp/now-where-i-am/</link><guid isPermaLink="false">null/temp/now-where-i-am/</guid><pubDate>Sat, 08 Oct 2022 22:12:03 GMT</pubDate><content:encoded></content:encoded></item></channel></rss>
