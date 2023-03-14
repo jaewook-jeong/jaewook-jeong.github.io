@@ -1,6 +1,8 @@
 ---
-title: '리액트 또는 Next.js에서 History api 라우팅을 감지하는 법(feat. modal)'
+title: 리액트 또는 Next.js에서 History api 라우팅을 감지하는 법(feat. modal)
 date: 2022-10-15 22:00:45
+category: "react"
+description: "리액트 또는 Next.js에서 History api 라우팅을 감지하는 법"
 ---
 
 ## 리액트 또는 Next.js에서 History api 라우팅을 감지하는 법(feat. modal)
