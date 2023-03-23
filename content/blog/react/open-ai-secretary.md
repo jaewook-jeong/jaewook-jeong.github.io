@@ -3,6 +3,7 @@ title: 나에 대해서 알아서 대답해주는 비서가 있으면 얼마나 
 date: 2023-03-22 22:00:45
 category: "react"
 description: "Open AI를 이용해 나에 대해 잘 알고 있는 비서를 만들어 보자!"
+thumbnail: "https://velog.velcdn.com/images/_woogie/post/67e12016-0b5f-4a4d-baf0-0c72e82b98ad/image.png"
 ---
 
 > 나에 대해서 알아서 대답해주는 비서가 있으면 얼마나 좋을까?
