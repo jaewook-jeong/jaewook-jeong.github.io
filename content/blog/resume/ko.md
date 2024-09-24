@@ -1,43 +1,60 @@
 ---
-title: 'about'
-date: 2023-3-12 17:21:13
+title: "about"
+category: "about"
+date: 2024-9-24 23:04:13
 ---
 
 # 정재욱
 
-<div align="right"><sub><i>Last updated: 2023.03.12</i></sub></div>
+<div align="right"><sub><i>Last updated: 2024.09.24</i></sub></div>
 
-**저는 `______`  사람입니다.**
+**저는 `______` 사람입니다.**
 
-1. 대화하는게 좋은
-2. 문서화를 잘하는
+1. 대화가 좋은
+2. 문서화하는
 3. 이상과 현실을 구분하는
 
-**저는 `______` 하는 개발자입니다.**
+**저는 `______` 개발자입니다.**
 
 1. 결과물을 제시간에 만들어내는
-2. 지속 가능한 개발에 집중하는 
+2. 비즈니스에 관심이 많은
 3. 개발 문화에 관심이 많은
 
-
 |             |                                    |
-| :---------: |------------------------------------|
+| :---------: | ---------------------------------- |
 | **GitHub**  | <https://github.com/jaewook-jeong> |
-|  **Blog**   | <https://jaewook-jeong.github.io> |
+|  **Blog**   | <https://jaewook-jeong.github.io>  |
 | **Contact** | <dnrlwo11@gmail.com>               |
 
 <br />
 
 # Experiences
 
+## [비바리퍼블리카](https://www.toss.im)
+
+|              |                                                                   |
+| -----------: | ----------------------------------------------------------------- |
+|   **period** | 23.06 ~ current                                                   |
+| **position** | Frontend Engineer                                                 |
+| **projects** | 내부 정산 플랫폼(Business-one) / 인터널 앱                        |
+|       _tech_ | React, Next.js, TypeScript, react-query, react-hook-form, emotion |
+
+### 비즈니스원
+
+- 토스 정산 플랫폼 개발
+
+### 인터널 앱(Web app)
+
+- 인터널앱에서 커피 주문
+
 ## [Nextunicorn](https://www.nextunicorn.kr)
 
-|              |                                                                                                                                             |
-| -----------: |---------------------------------------------------------------------------------------------------------------------------------------------|
-|   **period** | 21.02 ~ current                                                                                                                             |
-| **position** | Frontend Chapter                                                                                                                            |
-| **projects** | [메인페이지](https://nextunicorn.kr) / [파인더](https://nextunicorn.kr/finder) / [지원프로그램](https://nextunicorn.kr/support-programs) / 채팅기능  / nu-pro |
-|    *tech*    | React, Next.js, TypeScript, react-query, react-hook-form, emotion, zustand, redux                                                           |
+|              |                                                                                                                                                              |
+| -----------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|   **period** | 21.02 ~ 23.04                                                                                                                                                |
+| **position** | Frontend Engineer                                                                                                                                            |
+| **projects** | [메인페이지](https://nextunicorn.kr) / [파인더](https://nextunicorn.kr/finder) / [지원프로그램](https://nextunicorn.kr/support-programs) / 채팅기능 / nu-pro |
+|       _tech_ | React, Next.js, TypeScript, react-query, react-hook-form, emotion, zustand, redux                                                                            |
 
 ### nextunicorn-package 오픈소스 관리
 

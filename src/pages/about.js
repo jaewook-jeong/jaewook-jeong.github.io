@@ -1,39 +1,42 @@
-import React from 'react'
-import { graphql, useStaticQuery } from "gatsby";
+import React from "react"
+import { graphql, useStaticQuery } from "gatsby"
 
-import { rhythm } from '../utils/typography'
-import Seo from "../components/seo";
-import "../styles/about.scss";
+import { rhythm } from "../utils/typography"
+import Seo from "../components/seo"
+import "../styles/about.scss"
 
 export default () => {
   const data = useStaticQuery(graphql`
-      query AboutQuery {
-          site {
-              siteMetadata {
-                  resume {
-                      title
-                      description
-                  }
-              }
+    query AboutQuery {
+      site {
+        siteMetadata {
+          resume {
+            title
+            description
           }
-          allMarkdownRemark(filter: { frontmatter: { category: { eq: null } } }) {
-              edges {
-                  node {
-                      id
-                      excerpt(pruneLength: 160)
-                      html
-                      frontmatter {
-                          title
-                          date(formatString: "MMMM DD, YYYY")
-                      }
-                  }
-              }
-          }
+        }
       }
+      allMarkdownRemark(
+        filter: { frontmatter: { category: { eq: "about" } } }
+      ) {
+        edges {
+          node {
+            id
+            excerpt(pruneLength: 160)
+            html
+            frontmatter {
+              title
+              date(formatString: "MMMM DD, YYYY")
+            }
+          }
+        }
+      }
+    }
   `)
   const resumeData = data.site.siteMetadata.resume
   const resumes = data.allMarkdownRemark.edges
-  const resume = resumes[0].node;
+  const resume = resumes[0].node
+
   return (
     <>
       <Seo title={resumeData.title} description={resumeData.description} />
