@@ -74,7 +74,7 @@ const Bio = () => {
           <br/>
           문의사항이 있다면 연락주세요:)
           <br/>
-          <a href="https://www.nextunicorn.kr" target="_blank">@nextunicorn</a> frontend
+          <a href="https://toss.im/" target="_blank">@@toss</a> frontend
         </p>
       </div>
       <div className="author-socials">
